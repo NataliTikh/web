@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.body{
+	font-family: "Poppins", sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+[class=*"__container"]{
+	max-width: 1952 px;
+	margin: 0px auto;
+	padding: 0 15px;
+}
+
+/*_________________HEADER____________________*/
+.header{
+	background: rgb(22, 81, 102, 1.0);
+	font-family: Poppins;
+	padding: 33px 150px;
+}
+
+.header__container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	max-width: 1952 px;
+	margin: 0px auto;
+}
+
+.header_navigation{
+	display: flex;
+	align-items: center;
+	gap:390px;
+}
+
+.menu__body{
+	display: flex;
+	align-items: center;
+	gap: 60px;
+}
+
+.menu__link{
+	font-size: 22px;
+	font-weight: 500;
+	color: #FFF;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+.header__buttons{
+	display: flex;
+	align-items: center;
+	gap: 38px;
+}
+
+
+/*_________________HERO______________________*/
+
+.page{
+	background: rgb(22, 81, 102, 1.0);
+	font-family: Poppins;
+}
+
+.hero{}
+
+.hero__container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1952 px;
+	margin: 0px auto;
+
+}
+
+.hero__content{
+	flex: 0 0 calc(684px / 1952 * 100%);
+}
+
+.hero__title{
+	color: #FFF;
+	font-size: 82px;
+	font-weight: 700;
+	line-height: 90px;
+}
+
+.hero__title_green{
+	color: #05FF00;
+	font-size: 82px;
+	font-weight: 500;
+	line-height: 100px;
+	max-width: 709px;
+}
+
+.text{
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 40px; /* 166.667% */
+	margin-top: 30px;
+}
+
+.p{
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 40px; /* 166.667% */
+}
+
+/*_________________FOOTER____________________*/
